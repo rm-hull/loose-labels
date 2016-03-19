@@ -20,5 +20,7 @@
   :profiles {
     :dev {
       :global-vars {*warn-on-reflection* true}
+      :dependencies [
+        [org.clojure/test.check "0.9.0"]]
       :plugins [
         [lein-cloverage "1.0.6"]]}})
