@@ -6,7 +6,8 @@
   [x round]
   {:pre [(>= x 0)]}
   (let [exp (Math/floor (Math/log10 x))
-        f   (/ x (Math/pow 10 exp))
+        d   (Math/pow 10 exp)
+        f   (/ x (if (zero? d) 1 d))
         nf  (if round
               (condp > f
                 1.5  1.0
