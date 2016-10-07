@@ -4,8 +4,7 @@
   :license {
     :name "The MIT License (MIT)"
     :url "http://opensource.org/licenses/MIT"}
-  :dependencies [
-    [org.clojure/clojure "1.8.0"]]
+  :dependencies [ ]
   :scm {:url "git@github.com:rm-hull/loose-labels.git"}
   :source-paths ["src"]
   :jar-exclusions [#"(?:^|/).git"]
@@ -18,7 +17,8 @@
     :dev {
       :global-vars {*warn-on-reflection* true}
       :dependencies [
+        [org.clojure/clojure "1.8.0"]
         [org.clojure/test.check "0.9.0"]]
       :plugins [
-        [lein-cloverage "1.0.6"]
-        [lein-codox "0.9.5"]]}})
+        [lein-cloverage "1.0.7"]
+        [lein-codox "0.10.0"]]}})
