@@ -1,5 +1,10 @@
 # Loose Labels
-[![Build Status](https://travis-ci.org/rm-hull/loose-labels.svg?branch=master)](http://travis-ci.org/rm-hull/loose-labels) [![Coverage Status](https://coveralls.io/repos/rm-hull/loose-labels/badge.svg?branch=master)](https://coveralls.io/r/rm-hull/loose-labels?branch=master) [![Dependencies Status](https://jarkeeper.com/rm-hull/loose-labels/status.svg)](https://jarkeeper.com/rm-hull/loose-labels) [![Downloads](https://jarkeeper.com/rm-hull/loose-labels/downloads.svg)](https://jarkeeper.com/rm-hull/loose-labels) [![Clojars Project](https://img.shields.io/clojars/v/rm-hull/loose-labels.svg)](https://clojars.org/rm-hull/loose-labels)
+[![Build Status](https://travis-ci.org/rm-hull/loose-labels.svg?branch=master)](http://travis-ci.org/rm-hull/loose-labels)
+[![Coverage Status](https://coveralls.io/repos/rm-hull/loose-labels/badge.svg?branch=master)](https://coveralls.io/r/rm-hull/loose-labels?branch=master)
+[![Dependencies Status](https://jarkeeper.com/rm-hull/loose-labels/status.svg)](https://jarkeeper.com/rm-hull/loose-labels)
+[![Downloads](https://jarkeeper.com/rm-hull/loose-labels/downloads.svg)](https://jarkeeper.com/rm-hull/loose-labels)
+[![Clojars Project](https://img.shields.io/clojars/v/rm-hull/loose-labels.svg)](https://clojars.org/rm-hull/loose-labels)
+[![Maintenance](https://img.shields.io/maintenance/yes/2017.svg?maxAge=2592000)]()
 
 A Clojure implementation of **"Nice numbers for graph labels"** from
 _Graphics Gems, vol. 1_, originally by Paul S. Heckbert, University of California,
