@@ -25,16 +25,16 @@
   "Label the data range from lower to upper loosely."
   ([lower upper] (loose-label lower upper 5))
   ([lower upper ntick]
-    {:pre [(>= ntick 2) (< lower upper)]}
-    (let [rng      (nice-num (- upper lower) false)
-          d        (nice-num (/ rng (dec ntick)) true)
-          graphmin (* (Math/floor (/ lower d)) d)
-          graphmax (* (Math/ceil (/ upper d)) d)
-          nfrac    (int (max (- (Math/floor (Math/log10 d))) 0))
-          fmt-meta (partial format (str "%." nfrac "f"))]
-      (->>
-        (range graphmin (+ graphmax (* 0.5 d)) d)
-        (map fmt-meta)))))
+   {:pre [(>= ntick 2) (< lower upper)]}
+   (let [rng      (nice-num (- upper lower) false)
+         d        (nice-num (/ rng (dec ntick)) true)
+         graphmin (* (Math/floor (/ lower d)) d)
+         graphmax (* (Math/ceil (/ upper d)) d)
+         nfrac    (int (max (- (Math/floor (Math/log10 d))) 0))
+         fmt-meta (partial format (str "%." nfrac "f"))]
+     (->>
+      (range graphmin (+ graphmax (* 0.5 d)) d)
+      (map fmt-meta)))))
 
 (defn values [labels]
   (map #(Double/parseDouble %) labels))

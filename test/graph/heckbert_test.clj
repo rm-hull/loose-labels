@@ -1,10 +1,10 @@
 (ns graph.heckbert-test
   (:require
-    [clojure.test :refer :all]
-    [clojure.test.check.clojure-test :refer [defspec]]
-    [clojure.test.check.generators :as gen]
-    [clojure.test.check.properties :as prop]
-    [graph.heckbert :refer :all]))
+   [clojure.test :refer :all]
+   [clojure.test.check.clojure-test :refer [defspec]]
+   [clojure.test.check.generators :as gen]
+   [clojure.test.check.properties :as prop]
+   [graph.heckbert :refer :all]))
 
 (def dbl-from-zero (gen/double* {:min 0 :NaN? false :infinite? false}))
 (def dbl-from-one  (gen/double* {:min 1 :NaN? false :infinite? false}))
@@ -13,7 +13,7 @@
 (defspec nice-num-ceil
   100
   (prop/for-all [v dbl-from-zero]
-    (is (>= (nice-num v false) v))))
+                (is (>= (nice-num v false) v))))
 
 ;(defspec nice-num-neg-fails-precondition
 ;  100
@@ -31,10 +31,10 @@
   100
   (prop/for-all [start gen/int
                  delta gen/nat]
-    (is (>= start (first (values (loose-label start  (+ start delta 1))))))))
+                (is (>= start (first (values (loose-label start  (+ start delta 1))))))))
 
 (defspec loose-label-upper-bound-inside-last-element
   100
   (prop/for-all [end gen/int
                  delta gen/nat]
-    (is (<= end (last (values (loose-label (- end delta 1) end)))))))
+                (is (<= end (last (values (loose-label (- end delta 1) end)))))))
