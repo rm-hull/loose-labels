@@ -38,7 +38,7 @@ This is an implementation of the loose method.
 
 ### Pre-requisites
 
-You will need [Leiningen](https://github.com/technomancy/leiningen) 2.6.1 or above installed.
+You will need [Leiningen](https://github.com/technomancy/leiningen) 2.8.1 or above installed.
 
 ### Building
 
