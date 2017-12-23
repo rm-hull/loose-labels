@@ -12,8 +12,8 @@ before_script:
   - lein install
   - lein cljfmt check
 script:
-  - lein2 install
-  - lein2 with-profile +dev cloverage --coveralls
+  - lein install
+  - lein with-profile +dev cloverage --coveralls
   - curl -F 'json_file=@target/coverage/coveralls.json' 'https://coveralls.io/api/v1/jobs'
 jdk:
   - oraclejdk8
