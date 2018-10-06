@@ -1,8 +1,8 @@
 # Loose Labels
 [![Build Status](https://travis-ci.org/rm-hull/loose-labels.svg?branch=master)](http://travis-ci.org/rm-hull/loose-labels)
 [![Coverage Status](https://coveralls.io/repos/rm-hull/loose-labels/badge.svg?branch=master)](https://coveralls.io/r/rm-hull/loose-labels?branch=master)
-[![Dependencies Status](https://jarkeeper.com/rm-hull/loose-labels/status.svg)](https://jarkeeper.com/rm-hull/loose-labels)
-[![Downloads](https://jarkeeper.com/rm-hull/loose-labels/downloads.svg)](https://jarkeeper.com/rm-hull/loose-labels)
+[![Dependencies Status](https://versions.deps.co/rm-hull/loose-labels/status.svg)](https://versions.deps.co/rm-hull/loose-labels)
+[![Downloads](https://versions.deps.co/rm-hull/loose-labels/downloads.svg)](https://versions.deps.co/rm-hull/loose-labels)
 [![Clojars Project](https://img.shields.io/clojars/v/rm-hull/loose-labels.svg)](https://clojars.org/rm-hull/loose-labels)
 [![Maintenance](https://img.shields.io/maintenance/yes/2018.svg?maxAge=2592000)]()
 
