@@ -10,6 +10,12 @@
   :jar-exclusions [#"(?:^|/).git"]
   :codox {
     :source-paths ["src"]
+    :doc-files [
+      "doc/background.md"
+      "doc/basic-usage.md"
+      "doc/references.md"
+      "LICENSE.md"
+    ]
     :output-path "doc/api"
     :source-uri "http://github.com/rm-hull/loose-labels/blob/master/{filepath}#L{line}" }
   :min-lein-version "2.8.1"
@@ -20,6 +26,6 @@
         [org.clojure/clojure "1.9.0"]
         [org.clojure/test.check "0.9.0"]]
       :plugins [
-        [lein-codox "0.10.3"]
-        [lein-cljfmt "0.5.7"]
-        [lein-cloverage "1.0.10"]]}})
+        [lein-codox "0.10.5"]
+        [lein-cljfmt "0.6.1"]
+        [lein-cloverage "1.0.13"]]}})

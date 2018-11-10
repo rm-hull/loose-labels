@@ -87,7 +87,6 @@ There is a convenience function to convert back into numeric values:
 ```clojure
 (values (loose-label 105.00 543.00))
 ; (100.0 200.0 300.0 400.0 500.0 600.0)
-
 ```
 
 ## References
