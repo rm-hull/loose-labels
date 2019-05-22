@@ -4,7 +4,7 @@
 [![Dependencies Status](https://versions.deps.co/rm-hull/loose-labels/status.svg)](https://versions.deps.co/rm-hull/loose-labels)
 [![Downloads](https://versions.deps.co/rm-hull/loose-labels/downloads.svg)](https://versions.deps.co/rm-hull/loose-labels)
 [![Clojars Project](https://img.shields.io/clojars/v/rm-hull/loose-labels.svg)](https://clojars.org/rm-hull/loose-labels)
-[![Maintenance](https://img.shields.io/maintenance/yes/2018.svg?maxAge=2592000)]()
+[![Maintenance](https://img.shields.io/maintenance/yes/2019.svg?maxAge=2592000)]()
 
 A Clojure implementation of **"Nice numbers for graph labels"** from
 _Graphics Gems, vol. 1_, originally by Paul S. Heckbert, University of California,
