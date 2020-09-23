@@ -4,7 +4,7 @@
 [![Dependencies Status](https://versions.deps.co/rm-hull/loose-labels/status.svg)](https://versions.deps.co/rm-hull/loose-labels)
 [![Downloads](https://versions.deps.co/rm-hull/loose-labels/downloads.svg)](https://versions.deps.co/rm-hull/loose-labels)
 [![Clojars Project](https://img.shields.io/clojars/v/rm-hull/loose-labels.svg)](https://clojars.org/rm-hull/loose-labels)
-[![Maintenance](https://img.shields.io/maintenance/yes/2019.svg?maxAge=2592000)]()
+[![Maintenance](https://img.shields.io/maintenance/yes/2020.svg?maxAge=2592000)]()
 
 A Clojure implementation of **"Nice numbers for graph labels"** from
 _Graphics Gems, vol. 1_, originally by Paul S. Heckbert, University of California,
@@ -18,8 +18,8 @@ Berkeley, California.
 > spacing of .05. Humans are good at choosing such “nice” numbers, but
 > simplistic algorithms are not. The naive label-selection algorithm takes
 > the data range and divides it into n equal intervals, but this usually
-> results in ugly tick labels. We here describe a simple method for generat-
-> ing nice graph labels.
+> results in ugly tick labels. We here describe a simple method for generating 
+> nice graph labels.
 >
 > The primary observation is that the “nicest” numbers in decimal are 1,
 > 2, and 5, and all power-of-ten multiples of these numbers. We will use
